@@ -9,6 +9,10 @@ public class Person {
         this.age = age;
     }
 
+    public void sayHi() {
+        System.out.println(person.name + " says: \"Hi everyone\"")
+    }
+
     public String toString() {
         return name + " " + surname + " " + age;
     }
