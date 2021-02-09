@@ -10,7 +10,7 @@ public class Person {
     }
 
     public void sayHi() {
-        System.out.println(person.name + " says: \"Hi everyone\"")
+        System.out.println(name + " says: \"Hi everyone!\"");
     }
 
     public String toString() {
